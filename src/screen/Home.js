@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity,Button, FlatList ,StyleSheet, RefreshControl, ScrollView} from 'react-native'
+import { Text, View, TouchableOpacity, FlatList ,StyleSheet, RefreshControl, ScrollView} from 'react-native'
 import axios from "axios";
 import { SafeAreaView } from "react-navigation";
+import { Card, ListItem, Button, Icon } from 'react-native-elements'
 
 //import Item from "../Notes";
 
@@ -79,22 +80,34 @@ export default class App extends React.Component {
     },2000)
   }
 
-  _renderItem = ({item})=>{
+  _listEmptyComponent= ()=>{
     return (
       <View style={styles.card} >
-      <View style={{justifyContent:'center' }}>
-        <Text style={styles.cardTitle} > {item.note_title}</Text>
-        <Text style={styles.cardText} >  {item.note_desc}</Text>
+        <View style={{justifyContent:'center' }}>
+          <Text style={styles.cardTitle} > Örnek Note</Text>
+          <Text style={styles.cardText} >  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Debitis dicta incidunt libero natus placeat porro sunt suscipit vel.
+            Fugiat id necessitatibus nihil obcaecati rem tempore vero? Ducimus molestiae obcaecati quisquam.</Text>
+        </View>
       </View>
+    )
+  }
+
+  _renderItem = ({item})=>{
+    return (
+      <Card style={{flex:1}}>
+        <Card.Title>{item.note_title}</Card.Title>
+        <View>
+          <Text>  {item.note_desc}</Text>
+        </View>
         <TouchableOpacity onPress={()=>{this.deleteItem(item.id)}} style={{padding:10, flexDirection: 'column'}}>
           <Text style={{ textAlignVertical: "center", textAlign: "center",fontWeight:'700'}}>Sil</Text>
         </TouchableOpacity>
-    </View>
+      </Card>
     )
   }
 
   render() {
-
     const { notes, isRefresh} = this.state;
     return (
       <SafeAreaView style={styles.container}>
@@ -103,10 +116,9 @@ export default class App extends React.Component {
             style={styles.noteAdd}>
             <Text>Note Ekle</Text>
           </TouchableOpacity>
-
           <FlatList
             refreshControl={<RefreshControl refreshing={isRefresh} onRefresh={this.onRefresh} />}
-            style={styles.ItemList}
+            ListEmptyComponent={this._listEmptyComponent}
             data={notes}
             renderItem={this._renderItem}
             keyExtractor = {(item,index) => index.toString() }
@@ -118,12 +130,9 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container : {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center'
-  },
-  ItemList:{
-    margin:5
+    flex:1,
+    alignItems:'center',
+    justifyContent:'center'
   },
   card : {
     marginLeft:2,

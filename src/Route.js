@@ -19,13 +19,6 @@ const HomeStack = createStackNavigator({
   NoteAdd : {screen : NoteAdd}
 })
 
-const DetailStack = createStackNavigator({
-  Detail : { screen : Detail}
-})
-
-const DrawerStack = createStackNavigator({
-  Drawer : {screen : Drawer}
-})
 
 const AppNavigator = createDrawerNavigator({
   Home : HomeStack
