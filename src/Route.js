@@ -9,17 +9,14 @@ import App from "./screen/Home"
 import Detail from "./screen/Detail"
 import Drawer from "./screen/Drawer"
 import NoteAdd from "./screen/NoteAdd";
-import Login from "./screen/Login";
 
 
 
 
 const HomeStack = createStackNavigator({
-  Home:{screen:Login},
-  Notes : {screen:App},
+  Home:{screen:App},
   Detail : { screen : Detail},
-  NoteAdd : {screen : NoteAdd},
-  Login : {screen:Login }
+  NoteAdd : {screen : NoteAdd}
 })
 
 

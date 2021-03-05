@@ -57,6 +57,8 @@ export default class NoteAdd extends React.Component {
     })
   }
 
+
+
   render() {
     return (
       <SafeAreaView style={{ flex: 1,  justifyContent: 'center' }}>
