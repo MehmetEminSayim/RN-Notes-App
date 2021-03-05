@@ -30,14 +30,14 @@ export default class Drawer extends React.Component {
             name : "e min js"
           }) } }
         >
-          <Text>Detay Param </Text>
+          <Text>Kurumsal </Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={{alignItems: "center", backgroundColor: "#DDDDDD", padding: 10 , marginTop: 20,borderRadius:5}}
           onPress = { ()=>{ this.props.navigation.closeDrawer() } }
         >
-          <Text>Menu Kapat </Text>
+          <Text>Kapat </Text>
         </TouchableOpacity>
 
       </View>

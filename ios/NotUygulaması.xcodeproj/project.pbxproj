@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NotesTests.m */; };
-		0EB5F8C0423A9A967FDC80BF /* libPods-Notes-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DB8EBDD432794D5B15003 /* libPods-Notes-tvOSTests.a */; };
+		00E356F31AD99517003FC87E /* NotUygulamasıTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NotUygulamasıTests.m */; };
+		0EB5F8C0423A9A967FDC80BF /* libPods-NotUygulaması-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F40DB8EBDD432794D5B15003 /* libPods-NotUygulaması-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		284C6291DA879202D4519476 /* libPods-Notes-NotesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497587774707E94C81AC036E /* libPods-Notes-NotesTests.a */; };
+		284C6291DA879202D4519476 /* libPods-NotUygulaması-NotUygulamasıTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 497587774707E94C81AC036E /* libPods-NotUygulaması-NotUygulamasıTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* NotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NotesTests.m */; };
-		80F566E1C7A6FAEFDBD3616A /* libPods-Notes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FF47EEB97B9389F15B17E3 /* libPods-Notes.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* NotUygulamasıTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NotUygulamasıTests.m */; };
+		80F566E1C7A6FAEFDBD3616A /* libPods-NotUygulaması.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05FF47EEB97B9389F15B17E3 /* libPods-NotUygulaması.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A23ED368D0CB7E349C33383D /* libPods-Notes-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76FEF724F4B7D7932DFA723 /* libPods-Notes-tvOS.a */; };
+		A23ED368D0CB7E349C33383D /* libPods-NotUygulaması-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76FEF724F4B7D7932DFA723 /* libPods-NotUygulaması-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Notes;
+			remoteInfo = NotUygulaması;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Notes-tvOS";
+			remoteInfo = "NotUygulaması-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* NotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* NotUygulamasıTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotUygulamasıTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* NotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotesTests.m; sourceTree = "<group>"; };
-		05FF47EEB97B9389F15B17E3 /* libPods-Notes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Notes/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Notes/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Notes/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Notes/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Notes/main.m; sourceTree = "<group>"; };
-		18E7E7ACE588518FA34DF07F /* Pods-Notes-NotesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-NotesTests.debug.xcconfig"; path = "Target Support Files/Pods-Notes-NotesTests/Pods-Notes-NotesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2707A34D0445ED184958D6FF /* Pods-Notes-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Notes-tvOS/Pods-Notes-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* Notes-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Notes-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notes-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4627609602D1408C79CA3632 /* Pods-Notes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.debug.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.debug.xcconfig"; sourceTree = "<group>"; };
-		4973F1276CCC667BC39E01C6 /* Pods-Notes-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Notes-tvOSTests/Pods-Notes-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		497587774707E94C81AC036E /* libPods-Notes-NotesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes-NotesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E07AEB9CAADC487C5CF856F /* Pods-Notes-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Notes-tvOSTests/Pods-Notes-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Notes/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		955805183570645403DE87A8 /* Pods-Notes-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Notes-tvOS/Pods-Notes-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C76FEF724F4B7D7932DFA723 /* libPods-Notes-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAA8ED2F2F4E5D5BBB8BBE67 /* Pods-Notes-NotesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes-NotesTests.release.xcconfig"; path = "Target Support Files/Pods-Notes-NotesTests/Pods-Notes-NotesTests.release.xcconfig"; sourceTree = "<group>"; };
-		E6B3B6E25776D7F60BA04EB0 /* Pods-Notes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notes.release.xcconfig"; path = "Target Support Files/Pods-Notes/Pods-Notes.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NotUygulamasıTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotUygulamasıTests.m; sourceTree = "<group>"; };
+		05FF47EEB97B9389F15B17E3 /* libPods-NotUygulaması.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotUygulaması.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* NotUygulaması.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotUygulaması.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NotUygulaması/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NotUygulaması/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NotUygulaması/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NotUygulaması/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NotUygulaması/main.m; sourceTree = "<group>"; };
+		18E7E7ACE588518FA34DF07F /* Pods-NotUygulaması-NotUygulamasıTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması-NotUygulamasıTests.debug.xcconfig"; path = "Target Support Files/Pods-NotUygulaması-NotUygulamasıTests/Pods-NotUygulaması-NotUygulamasıTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2707A34D0445ED184958D6FF /* Pods-NotUygulaması-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NotUygulaması-tvOS/Pods-NotUygulaması-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* NotUygulaması-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotUygulaması-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* NotUygulaması-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotUygulaması-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4627609602D1408C79CA3632 /* Pods-NotUygulaması.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması.debug.xcconfig"; path = "Target Support Files/Pods-NotUygulaması/Pods-NotUygulaması.debug.xcconfig"; sourceTree = "<group>"; };
+		4973F1276CCC667BC39E01C6 /* Pods-NotUygulaması-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NotUygulaması-tvOSTests/Pods-NotUygulaması-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		497587774707E94C81AC036E /* libPods-NotUygulaması-NotUygulamasıTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotUygulaması-NotUygulamasıTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E07AEB9CAADC487C5CF856F /* Pods-NotUygulaması-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-NotUygulaması-tvOSTests/Pods-NotUygulaması-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NotUygulaması/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		955805183570645403DE87A8 /* Pods-NotUygulaması-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NotUygulaması-tvOS/Pods-NotUygulaması-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C76FEF724F4B7D7932DFA723 /* libPods-NotUygulaması-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotUygulaması-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA8ED2F2F4E5D5BBB8BBE67 /* Pods-NotUygulaması-NotUygulamasıTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması-NotUygulamasıTests.release.xcconfig"; path = "Target Support Files/Pods-NotUygulaması-NotUygulamasıTests/Pods-NotUygulaması-NotUygulamasıTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6B3B6E25776D7F60BA04EB0 /* Pods-NotUygulaması.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotUygulaması.release.xcconfig"; path = "Target Support Files/Pods-NotUygulaması/Pods-NotUygulaması.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F40DB8EBDD432794D5B15003 /* libPods-Notes-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Notes-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40DB8EBDD432794D5B15003 /* libPods-NotUygulaması-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotUygulaması-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284C6291DA879202D4519476 /* libPods-Notes-NotesTests.a in Frameworks */,
+				284C6291DA879202D4519476 /* libPods-NotUygulaması-NotUygulamasıTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F566E1C7A6FAEFDBD3616A /* libPods-Notes.a in Frameworks */,
+				80F566E1C7A6FAEFDBD3616A /* libPods-NotUygulaması.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A23ED368D0CB7E349C33383D /* libPods-Notes-tvOS.a in Frameworks */,
+				A23ED368D0CB7E349C33383D /* libPods-NotUygulaması-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EB5F8C0423A9A967FDC80BF /* libPods-Notes-tvOSTests.a in Frameworks */,
+				0EB5F8C0423A9A967FDC80BF /* libPods-NotUygulaması-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* NotesTests */ = {
+		00E356EF1AD99517003FC87E /* NotUygulamasıTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* NotesTests.m */,
+				00E356F21AD99517003FC87E /* NotUygulamasıTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = NotesTests;
+			path = NotUygulamasıTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Notes */ = {
+		13B07FAE1A68108700A75B9A /* NotUygulaması */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Notes;
+			name = NotUygulaması;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				05FF47EEB97B9389F15B17E3 /* libPods-Notes.a */,
-				497587774707E94C81AC036E /* libPods-Notes-NotesTests.a */,
-				C76FEF724F4B7D7932DFA723 /* libPods-Notes-tvOS.a */,
-				F40DB8EBDD432794D5B15003 /* libPods-Notes-tvOSTests.a */,
+				05FF47EEB97B9389F15B17E3 /* libPods-NotUygulaması.a */,
+				497587774707E94C81AC036E /* libPods-NotUygulaması-NotUygulamasıTests.a */,
+				C76FEF724F4B7D7932DFA723 /* libPods-NotUygulaması-tvOS.a */,
+				F40DB8EBDD432794D5B15003 /* libPods-NotUygulaması-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		7CC0BE0EA4A340ED73EE2CBF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4627609602D1408C79CA3632 /* Pods-Notes.debug.xcconfig */,
-				E6B3B6E25776D7F60BA04EB0 /* Pods-Notes.release.xcconfig */,
-				18E7E7ACE588518FA34DF07F /* Pods-Notes-NotesTests.debug.xcconfig */,
-				DAA8ED2F2F4E5D5BBB8BBE67 /* Pods-Notes-NotesTests.release.xcconfig */,
-				2707A34D0445ED184958D6FF /* Pods-Notes-tvOS.debug.xcconfig */,
-				955805183570645403DE87A8 /* Pods-Notes-tvOS.release.xcconfig */,
-				4973F1276CCC667BC39E01C6 /* Pods-Notes-tvOSTests.debug.xcconfig */,
-				7E07AEB9CAADC487C5CF856F /* Pods-Notes-tvOSTests.release.xcconfig */,
+				4627609602D1408C79CA3632 /* Pods-NotUygulaması.debug.xcconfig */,
+				E6B3B6E25776D7F60BA04EB0 /* Pods-NotUygulaması.release.xcconfig */,
+				18E7E7ACE588518FA34DF07F /* Pods-NotUygulaması-NotUygulamasıTests.debug.xcconfig */,
+				DAA8ED2F2F4E5D5BBB8BBE67 /* Pods-NotUygulaması-NotUygulamasıTests.release.xcconfig */,
+				2707A34D0445ED184958D6FF /* Pods-NotUygulaması-tvOS.debug.xcconfig */,
+				955805183570645403DE87A8 /* Pods-NotUygulaması-tvOS.release.xcconfig */,
+				4973F1276CCC667BC39E01C6 /* Pods-NotUygulaması-tvOSTests.debug.xcconfig */,
+				7E07AEB9CAADC487C5CF856F /* Pods-NotUygulaması-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Notes */,
+				13B07FAE1A68108700A75B9A /* NotUygulaması */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* NotesTests */,
+				00E356EF1AD99517003FC87E /* NotUygulamasıTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7CC0BE0EA4A340ED73EE2CBF /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Notes.app */,
-				00E356EE1AD99517003FC87E /* NotesTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Notes-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Notes-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* NotUygulaması.app */,
+				00E356EE1AD99517003FC87E /* NotUygulamasıTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* NotUygulaması-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* NotUygulaması-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* NotesTests */ = {
+		00E356ED1AD99517003FC87E /* NotUygulamasıTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NotesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NotUygulamasıTests" */;
 			buildPhases = (
 				646F922364D656B0FA7DDABA /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = NotesTests;
-			productName = NotesTests;
-			productReference = 00E356EE1AD99517003FC87E /* NotesTests.xctest */;
+			name = NotUygulamasıTests;
+			productName = NotUygulamasıTests;
+			productReference = 00E356EE1AD99517003FC87E /* NotUygulamasıTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Notes */ = {
+		13B07F861A680F5B00A75B9A /* NotUygulaması */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Notes" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NotUygulaması" */;
 			buildPhases = (
 				EFE8372CEF04764745A385B2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = Notes;
-			productName = Notes;
-			productReference = 13B07F961A680F5B00A75B9A /* Notes.app */;
+			name = NotUygulaması;
+			productName = NotUygulaması;
+			productReference = 13B07F961A680F5B00A75B9A /* NotUygulaması.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Notes-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* NotUygulaması-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Notes-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NotUygulaması-tvOS" */;
 			buildPhases = (
 				F8C0B5AB52C0A7406D485CD0 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "Notes-tvOS";
-			productName = "Notes-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Notes-tvOS.app */;
+			name = "NotUygulaması-tvOS";
+			productName = "NotUygulaması-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* NotUygulaması-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Notes-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* NotUygulaması-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Notes-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NotUygulaması-tvOSTests" */;
 			buildPhases = (
 				140580D94C25DCE5B93D7070 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Notes-tvOSTests";
-			productName = "Notes-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Notes-tvOSTests.xctest */;
+			name = "NotUygulaması-tvOSTests";
+			productName = "NotUygulaması-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* NotUygulaması-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Notes" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NotUygulaması" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Notes */,
-				00E356ED1AD99517003FC87E /* NotesTests */,
-				2D02E47A1E0B4A5D006451C7 /* Notes-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Notes-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* NotUygulaması */,
+				00E356ED1AD99517003FC87E /* NotUygulamasıTests */,
+				2D02E47A1E0B4A5D006451C7 /* NotUygulaması-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* NotUygulaması-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Notes-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NotUygulaması-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,7 +428,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Notes-NotesTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NotUygulaması-NotUygulamasıTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -441,7 +441,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Notes-NotesTests/Pods-Notes-NotesTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NotUygulaması-NotUygulamasıTests/Pods-NotUygulaması-NotUygulamasıTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -450,7 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notes-NotesTests/Pods-Notes-NotesTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotUygulaması-NotUygulamasıTests/Pods-NotUygulaması-NotUygulamasıTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EFE8372CEF04764745A385B2 /* [CP] Check Pods Manifest.lock */ = {
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Notes-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NotUygulaması-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -490,7 +490,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Notes-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NotUygulaması-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -503,7 +503,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Notes/Pods-Notes-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NotUygulaması/Pods-NotUygulaması-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -512,7 +512,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Notes/Pods-Notes-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NotUygulaması/Pods-NotUygulaması-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* NotesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* NotUygulamasıTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* NotesTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* NotUygulamasıTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Notes */;
+			target = 13B07F861A680F5B00A75B9A /* NotUygulaması */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Notes-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* NotUygulaması-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18E7E7ACE588518FA34DF07F /* Pods-Notes-NotesTests.debug.xcconfig */;
+			baseConfigurationReference = 18E7E7ACE588518FA34DF07F /* Pods-NotUygulaması-NotUygulamasıTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = NotesTests/Info.plist;
+				INFOPLIST_FILE = NotUygulamasıTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notes.app/Notes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotUygulaması.app/NotUygulaması";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAA8ED2F2F4E5D5BBB8BBE67 /* Pods-Notes-NotesTests.release.xcconfig */;
+			baseConfigurationReference = DAA8ED2F2F4E5D5BBB8BBE67 /* Pods-NotUygulaması-NotUygulamasıTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = NotesTests/Info.plist;
+				INFOPLIST_FILE = NotUygulamasıTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notes.app/Notes";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotUygulaması.app/NotUygulaması";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4627609602D1408C79CA3632 /* Pods-Notes.debug.xcconfig */;
+			baseConfigurationReference = 4627609602D1408C79CA3632 /* Pods-NotUygulaması.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = NotUygulaması/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Notes;
+				PRODUCT_NAME = NotUygulaması;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6B3B6E25776D7F60BA04EB0 /* Pods-Notes.release.xcconfig */;
+			baseConfigurationReference = E6B3B6E25776D7F60BA04EB0 /* Pods-NotUygulaması.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Notes/Info.plist;
+				INFOPLIST_FILE = NotUygulaması/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Notes;
+				PRODUCT_NAME = NotUygulaması;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2707A34D0445ED184958D6FF /* Pods-Notes-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 2707A34D0445ED184958D6FF /* Pods-NotUygulaması-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Notes-tvOS/Info.plist";
+				INFOPLIST_FILE = "NotUygulaması-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Notes-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NotUygulaması-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 955805183570645403DE87A8 /* Pods-Notes-tvOS.release.xcconfig */;
+			baseConfigurationReference = 955805183570645403DE87A8 /* Pods-NotUygulaması-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Notes-tvOS/Info.plist";
+				INFOPLIST_FILE = "NotUygulaması-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Notes-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NotUygulaması-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4973F1276CCC667BC39E01C6 /* Pods-Notes-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4973F1276CCC667BC39E01C6 /* Pods-NotUygulaması-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Notes-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "NotUygulaması-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Notes-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NotUygulaması-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notes-tvOS.app/Notes-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotUygulaması-tvOS.app/NotUygulaması-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E07AEB9CAADC487C5CF856F /* Pods-Notes-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 7E07AEB9CAADC487C5CF856F /* Pods-NotUygulaması-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Notes-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "NotUygulaması-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Notes-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.NotUygulaması-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notes-tvOS.app/Notes-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotUygulaması-tvOS.app/NotUygulaması-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NotesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NotUygulamasıTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Notes" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NotUygulaması" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Notes-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NotUygulaması-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Notes-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NotUygulaması-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Notes" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NotUygulaması" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
