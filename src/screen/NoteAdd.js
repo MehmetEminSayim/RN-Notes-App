@@ -50,7 +50,7 @@ export default class NoteAdd extends React.Component {
           title:null,
           description : null
         })
-        this.props.navigation.navigate('Home')
+        this.props.navigation.navigate('Notes')
       }else{
         alert('Kayıt başarısız')
       }
