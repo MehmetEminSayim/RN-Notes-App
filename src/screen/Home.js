@@ -37,7 +37,7 @@ export default class App extends React.Component {
 
   componentDidMount(){
     setTimeout(()=>{
-      axios.get("http://www.webyazilimyaptir.com/notesApp/home/getNotes"
+      axios.get("https://ozgeceblog.com/home/getNotes"
       ).then( (res)=>{
         const data = res.data;
         this.setState({ notes : data })
@@ -48,13 +48,13 @@ export default class App extends React.Component {
   }
 
   deleteItem = (itemId)=>{
-    axios.post('http://www.webyazilimyaptir.com/notesApp/Home/deleteData',{
+    axios.post('https://www.ozgeceblog.com/Home/deleteData',{
       id : itemId,
     }).then((res) =>{
       if (res.data == 'basarili'){
         alert("Başarılı")
         setTimeout(()=>{
-          axios.get("http://www.webyazilimyaptir.com/notesApp/home/getNotes"
+          axios.get("https://www.ozgeceblog.com/home/getNotes"
           ).then( (res)=>{
             const data = res.data;
             this.setState({ notes : data })
@@ -70,7 +70,7 @@ export default class App extends React.Component {
 
   onRefresh = ()=>{
     this.setState({ isRefresh :true })
-    axios.get("http://www.webyazilimyaptir.com/notesApp/home/getNotes"
+    axios.get("https://www.ozgeceblog.com/home/getNotes"
     ).then( (res)=>{
       const data = res.data;
       this.setState({ notes : data })

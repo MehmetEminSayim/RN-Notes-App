@@ -39,7 +39,7 @@ export default class NoteAdd extends React.Component {
   }
 
   saveNote = ()=>{
-    axios.post('http://www.webyazilimyaptir.com/notesApp/Home/saveNotes',{
+    axios.post('https://www.ozgeceblog.com/Home/saveNotes',{
       title : this.state.title,
       desc : this.state.desc
     }).then((res) =>{

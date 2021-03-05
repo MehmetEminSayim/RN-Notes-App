@@ -35,7 +35,7 @@ export default class Login extends Component {
 
   _singin = ()=>{
     setTimeout(()=>{
-      axios.post('http://www.webyazilimyaptir.com/notesApp/Home/getUsers',{
+      axios.post('https://www.ozgeceblog.com/Home/getUsers',{
         username : this.state.username,
         password : this.state.password
       }).then((res) =>{
