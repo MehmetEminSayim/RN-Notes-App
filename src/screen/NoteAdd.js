@@ -2,19 +2,15 @@ import React, { Component } from 'react'
 import { Text, View, TouchableOpacity,Button, FlatList,StyleSheet,TextInput,SafeAreaView } from 'react-native'
 import axios from "axios";
 
+import { observer } from "mobx-react";
+import Store from "../Store";
+
+
+@observer
 export default class NoteAdd extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title:'Note Ekle',
-      headerLeft: () => (
-        <TouchableOpacity
-          style = {{ padding:10,backgroundColor:'lightblue', marginLeft:10, borderRadius:7 }}
-          onPress = { ()=> navigation.goBack() }
-        >
-          <Text>Geri</Text>
-        </TouchableOpacity>
-
-      ),
     };
   }
 
@@ -41,7 +37,8 @@ export default class NoteAdd extends React.Component {
   saveNote = ()=>{
     axios.post('https://www.ozgeceblog.com/Home/saveNotes',{
       title : this.state.title,
-      desc : this.state.desc
+      desc : this.state.desc,
+      userId : Store.userId
     }).then((res) =>{
       const data = res.data
       if (data == 'basarili'){

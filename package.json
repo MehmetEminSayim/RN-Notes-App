@@ -1,5 +1,5 @@
 {
-  "name": "NotUygulaması",
+  "name": "Notes",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.14.1",
     "@react-native-community/masked-view": "^0.1.10",
     "axios": "^0.21.1",
+    "expo-font": "^9.0.0",
+    "mobx": "^6.1.8",
+    "mobx-react": "^7.1.0",
+    "native-base": "^2.15.2",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-elements": "^3.2.0",
@@ -28,12 +33,14 @@
   },
   "devDependencies": {
     "@babel/core": "7.13.8",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/preset-flow": "^7.12.13",
     "@babel/runtime": "7.13.9",
     "@react-native-community/eslint-config": "1.1.0",
     "babel-jest": "25.5.1",
     "eslint": "6.8.0",
     "jest": "25.5.4",
-    "metro-react-native-babel-preset": "0.59.0",
+    "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {

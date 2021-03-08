@@ -1,46 +1,110 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity,Button, FlatList } from 'react-native'
+import { View, TouchableOpacity, FlatList } from 'react-native'
+import {
+  Container,
+  Header,
+  Content,
+  Button,
+  ListItem,
+  Text,
+  Icon,
+  Left,
+  Body,
+  Right,
+  Switch,
+  Title,
+} from "native-base";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default class Drawer extends React.Component {
   render() {
     return (
-      <View style={{ marginTop:50, alignItems: 'center', justifyContent: 'center' }}>
-        <View>
-          <Text style={{fontSize:22}}>Menu</Text>
-        </View>
+      <Container>
+        <Header>
+          <Left>
+            <Button transparent
+                    onPress = { ()=> this.props.navigation.closeDrawer()}>
+              <Icon name='menu' />
+            </Button>
+          </Left>
+          <Body>
+            <Title>Menu</Title>
+          </Body>
+        </Header>
+        <Content>
+          <ListItem icon>
+            <Left>
+              <Button
+                onPress = { ()=>{ this.props.navigation.closeDrawer() } }
+                style={{ backgroundColor: "#007AFF" }}>
+                <Icon active name="home" />
+              </Button>
 
-        <TouchableOpacity
-          style={{ marginTop:10, alignItems: "center", backgroundColor: "#DDDDDD", padding: 10, borderRadius:5}}
-          onPress = { ()=>{ this.props.navigation.closeDrawer() } }
-        >
-          <Text>Anasayfa</Text>
-        </TouchableOpacity>
+            </Left>
+            <Body>
+              <Text>Anasayfa</Text>
+            </Body>
+            <Right>
+              <Text>On</Text>
+            </Right>
+          </ListItem>
 
-        <TouchableOpacity
-          style={{alignItems: "center", backgroundColor: "#DDDDDD", padding: 10,marginTop:20,borderRadius:5}}
-          onPress = { ()=>{ this.props.navigation.navigate('NoteAdd')}}
-        >
-          <Text>Note Ekle </Text>
-        </TouchableOpacity>
+          <ListItem icon>
+            <Left>
+              <Button
+                onPress = { ()=>{ this.props.navigation.navigate('NoteAdd')}}
+                style={{ backgroundColor: "#FF9501" }}>
+                <Icon active name="arrow-forward" />
+              </Button>
+            </Left>
+            <Body>
+              <Text>Note Ekle</Text>
+            </Body>
+            <Right>
+              <Text>On</Text>
+            </Right>
+          </ListItem>
 
-        <TouchableOpacity
-          style={{alignItems: "center", backgroundColor: "#DDDDDD", padding: 10,marginTop:20,borderRadius:5}}
-          onPress = { ()=>{ this.props.navigation.navigate('Detail',{
-            id: 3 ,
-            name : "e min js"
-          }) } }
-        >
-          <Text>Kurumsal </Text>
-        </TouchableOpacity>
+          <ListItem icon>
+            <Left>
+              <Button
+                onPress = { ()=>{ this.props.navigation.navigate('Detail')}}
+                style={{ backgroundColor: "#FF9501" }}>
+                <Icon active name="link" />
+              </Button>
+            </Left>
+            <Body>
+              <Text>Kurumsal</Text>
+            </Body>
+            <Right>
+              <Text>On</Text>
+            </Right>
+          </ListItem>
 
-        <TouchableOpacity
-          style={{alignItems: "center", backgroundColor: "#DDDDDD", padding: 10 , marginTop: 20,borderRadius:5}}
-          onPress = { ()=>{ this.props.navigation.closeDrawer() } }
-        >
-          <Text>Kapat </Text>
-        </TouchableOpacity>
+          <ListItem icon>
+            <Left>
+              <Button
+                onPress = { ()=> {
+                  AsyncStorage.setItem('isLogin', 'No');
+                  AsyncStorage.setItem('fullname', '');
+                  AsyncStorage.setItem('userId', '');
+                  this.props.navigation.navigate('Login')
+                }}
+                style={{ backgroundColor: "red" }}>
+                <Icon active name="close" />
+              </Button>
+            </Left>
+            <Body>
+              <Text>Çıkış Yap</Text>
+            </Body>
+            <Right>
+              <Text>Logout</Text>
+            </Right>
+          </ListItem>
 
-      </View>
+        </Content>
+
+      </Container>
     )
   }
 }

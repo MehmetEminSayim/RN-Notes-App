@@ -1,30 +1,22 @@
 import React, { Component } from 'react'
-import { Text, View, TouchableOpacity, FlatList ,StyleSheet, RefreshControl, ScrollView} from 'react-native'
+import { FlatList,RefreshControl} from 'react-native'
 import axios from "axios";
-import { SafeAreaView } from "react-navigation";
-import { Card, ListItem, Button, Icon } from 'react-native-elements'
 
-//import Item from "../Notes";
+import { Container, Header, Title, Content, Footer, FooterTab, Button, Left, Right, Body, Icon, Text,Card, CardItem} from 'native-base';
 
+import AsyncStorage from "@react-native-async-storage/async-storage";
+
+import {observer} from "mobx-react";
+import Store from "../Store";
+
+@observer
 export default class App extends React.Component {
 
   static navigationOptions = ({ navigation }) => {
     return {
-      title: 'Anasayfa',
-      headerStyle: {
-        backgroundColor: 'lightblue',
-      },
-      headerLeft: () => (
-        <TouchableOpacity
-          style = {{ padding:10,backgroundColor:'#ccfd7f', marginLeft:10, borderRadius:7 }}
-          onPress = { ()=> navigation.openDrawer() }
-        >
-          <Text>Menu</Text>
-        </TouchableOpacity>
-      ),
+      headerShown: false,
     };
   };
-
 
   constructor (){
     super()
@@ -32,19 +24,32 @@ export default class App extends React.Component {
       notes : [],
       notes_id :null,
       isRefresh : false,
+      fullname : null,
+      userId : null
     }
   }
 
   componentDidMount(){
-    setTimeout(()=>{
-      axios.get("https://ozgeceblog.com/home/getNotes"
-      ).then( (res)=>{
-        const data = res.data;
-        this.setState({ notes : data })
-      }).catch(e =>{
-        console.log(e);
-      })
-    },100)
+
+    AsyncStorage.getItem('isLogin').then( (res)=>{
+      if (res  != 'ok'){
+        this.props.navigation.navigate('Home')
+      }else {
+        this.props.navigation.navigate('Notes')
+      }
+    })
+
+    AsyncStorage.getItem('fullname').then(res=>{
+      this.setState({ fullname : res })
+    })
+
+    AsyncStorage.getItem('userId').then(res=>{
+      axios.post("https://ozgeceblog.com/home/getNotes",{ userId : res })
+        .then( (res)=>{
+          const data = res.data;
+          this.setState({ notes : data , userId : res })
+        })
+    })
   }
 
   deleteItem = (itemId)=>{
@@ -54,12 +59,14 @@ export default class App extends React.Component {
       if (res.data == 'basarili'){
         alert("Başarılı")
         setTimeout(()=>{
-          axios.get("https://www.ozgeceblog.com/home/getNotes"
-          ).then( (res)=>{
-            const data = res.data;
-            this.setState({ notes : data })
-          }).catch(e =>{
-            console.log(e);
+          AsyncStorage.getItem('userId').then(res=>{
+            axios.post("https://ozgeceblog.com/home/getNotes",{ userId : res })
+              .then( (res)=>{
+                const data = res.data;
+                this.setState({ notes : data })
+              }).catch(e =>{
+              console.log(e);
+            })
           })
         },100)
       }else{
@@ -70,94 +77,101 @@ export default class App extends React.Component {
 
   onRefresh = ()=>{
     this.setState({ isRefresh :true })
-    axios.get("https://www.ozgeceblog.com/home/getNotes"
-    ).then( (res)=>{
-      const data = res.data;
-      this.setState({ notes : data })
+    AsyncStorage.getItem('userId').then(res=>{
+      axios.post("https://ozgeceblog.com/home/getNotes",{ userId : res})
+        .then( (res)=>{
+          const data = res.data;
+          this.setState({
+            notes : data,
+            isRefresh : false
+          })
+        })
     })
-    setTimeout(()=>{
-      this.setState({ isRefresh :false })
-    },2000)
   }
 
   _listEmptyComponent= ()=>{
     return (
-      <View style={styles.card} >
-        <View style={{justifyContent:'center' }}>
-          <Text style={styles.cardTitle} > Örnek Note</Text>
-          <Text style={styles.cardText} >  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Debitis dicta incidunt libero natus placeat porro sunt suscipit vel.
-            Fugiat id necessitatibus nihil obcaecati rem tempore vero? Ducimus molestiae obcaecati quisquam.</Text>
-        </View>
-      </View>
+      <Card style={{flex:1}}>
+        <CardItem header>
+          <Text>Örnek Note</Text>
+        </CardItem>
+        <CardItem>
+          <Body>
+            <Text>
+              <Text> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut cumque delectus enim excepturi expedita hic
+                id illum iure laudantium modi non obcaecati optio porro quam, recusandae sed voluptates, voluptatibus?</Text>
+            </Text>
+          </Body>
+        </CardItem>
+      </Card>
     )
   }
 
   _renderItem = ({item})=>{
     return (
       <Card style={{flex:1}}>
-        <Card.Title>{item.note_title}</Card.Title>
-        <View>
-          <Text>  {item.note_desc}</Text>
-        </View>
-        <TouchableOpacity onPress={()=>{this.deleteItem(item.id)}} style={{padding:10, flexDirection: 'column'}}>
-          <Text style={{ textAlignVertical: "center", textAlign: "center",fontWeight:'700'}}>Sil</Text>
-        </TouchableOpacity>
+        <CardItem header>
+          <Text>  {item.note_title}</Text>
+        </CardItem>
+        <CardItem>
+          <Body>
+            <Text>
+              <Text>  {item.note_desc}</Text>
+            </Text>
+          </Body>
+        </CardItem>
+        <CardItem footer>
+          <Button onPress={()=>{this.deleteItem(item.id)}} style={{justifyContent:'center', flex:1}} bordered>
+            <Text style={{textAlign:'center'}}><Icon name="trash" /></Text>
+
+          </Button>
+        </CardItem>
       </Card>
     )
   }
 
   render() {
-    const { notes, isRefresh} = this.state;
+    const { notes, isRefresh, fullname} = this.state;
     return (
-      <SafeAreaView style={styles.container}>
-          <TouchableOpacity
-            onPress={()=>{ this.props.navigation.navigate('NoteAdd') }}
-            style={styles.noteAdd}>
-            <Text>Note Ekle</Text>
-          </TouchableOpacity>
+      <Container>
+        <Header>
+          <Left>
+            <Button transparent
+                    onPress = { ()=> this.props.navigation.openDrawer()}>
+              <Icon name='menu' />
+            </Button>
+          </Left>
+          <Body>
+            <Title>{fullname }</Title>
+          </Body>
+          <Right>
+            <Button
+              onPress = { ()=>{ this.props.navigation.navigate('NoteAdd')}}
+              transparent>
+              <Text>Note Ekle</Text>
+            </Button>
+          </Right>
+        </Header>
+        <Content>
           <FlatList
             refreshControl={<RefreshControl refreshing={isRefresh} onRefresh={this.onRefresh} />}
             ListEmptyComponent={this._listEmptyComponent}
             data={notes}
+            numColumns={2}
             renderItem={this._renderItem}
             keyExtractor = {(item,index) => index.toString() }
           />
-      </SafeAreaView>
+        </Content>
+        <Footer>
+          <FooterTab>
+            <Button full>
+              <Text>Design by Metge Yazılım</Text>
+            </Button>
+          </FooterTab>
+        </Footer>
+      </Container>
     )
   }
 }
 
-const styles = StyleSheet.create({
-  container : {
-    flex:1,
-    alignItems:'center',
-    justifyContent:'center'
-  },
-  card : {
-    marginLeft:2,
-    marginTop:20,
-    backgroundColor:'white',
-    borderBottomWidth : 1,
-    borderBottomColor:'#ddd',
-    padding:10,
-  },
-  cardText : {
-    marginTop: 7,
-    marginLeft: 10,
-    textAlign: 'center'
-  },
-  cardTitle:{
-    textAlignVertical: "center",
-    textAlign: "center",
-    fontWeight: 'bold',
-    fontSize:18
-
-  },
-  noteAdd:{
-    padding: 10,
-    backgroundColor:'lightblue',
-    marginTop:10
-  }
-})
 
