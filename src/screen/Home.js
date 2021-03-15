@@ -31,6 +31,16 @@ export default class App extends React.Component {
 
   componentDidMount(){
 
+    this.props.navigation.addListener('willFocus', ()=>{
+      AsyncStorage.getItem('userId').then(res=>{
+        axios.post("https://ozgeceblog.com/home/getNotes",{ userId : res })
+          .then( (res)=>{
+            const data = res.data;
+            this.setState({ notes : data , userId : res })
+          })
+      })
+    })
+
     AsyncStorage.getItem('isLogin').then( (res)=>{
       if (res  != 'ok'){
         this.props.navigation.navigate('Home')
